@@ -25,7 +25,7 @@ export default function PrivacyPage() {
         </div>
 
         <div className="mt-12">
-          <div className="rounded-2xl bg-white p-6 md:p-8 shadow-[8px_8px_0px_rgba(0,0,0,0.5)]">
+          <div className="rounded-2xl bg-white p-6 md:p-8 shadow-[8px_8px_0px_rgba(0,0,0,0.5)] max-h-[70vh] overflow-y-auto">
 
             <div
               className="text-black text-sm leading-6"
