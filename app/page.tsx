@@ -124,9 +124,9 @@ export default function HomePage() {
           </div>
 
           <div className="text-center mx-auto max-w-3xl">
-            <h3 className="mt-14 font-bold text-lg mb-2 text-black">CARSLIE IS PERFECT FOR</h3>
+            <h3 className="mt-14 font-bold text-lg mb-2 text-black">CARSLIE IS PERFECT FOR...</h3>
             <p className="mt-0 text-md sm:text-md md:text-lg text-black">
-              Perfect for families with multiple drivers or vehicles, organized drivers, DIY mechanics, or anyone who owns a car or drives one!
+              families with multiple drivers or vehicles, organized drivers, DIY mechanics, and anyone who owns a car or drives one!
             </p>
           </div>
 
