@@ -19,30 +19,29 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en-US">
       <body className={`${montserrat.className} tracking-[0.1em] m-0 p-0 text-white`}>
         <header className="fixed inset-x-0 top-0 z-50 backdrop-blur-md bg-white/20">
-          <nav className="flex items-center justify-between px-6 py-4 md:px-10">
+          <nav className="flex flex-col items-center gap-3 px-4 py-3 md:flex-row md:items-center md:justify-between md:px-10 md:py-4">
             <a href="/" className="flex items-center">
               <img
                 src="https://lo33ytah7ewabfnk.public.blob.vercel-storage.com/simple_logo_name_white_1x.png"
                 alt="Carslie"
-                className="h-12 w-auto"
+                className="h-10 w-auto md:h-12"
               />
             </a>
 
-            <div className="flex items-center gap-6 text-sm font-medium text-black">
-              <a href="/" className="hover:text-[#a6d6fd]">
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[0.7rem] font-medium text-black sm:text-xs md:gap-6 md:text-sm">
+              <a href="/" className="hover:text-[#a6d6fd] transition-colors">
                 HOME
               </a>
-              <a href="/privacy" className="hover:text-[#a6d6fd]">
+              <a href="/privacy" className="hover:text-[#a6d6fd] transition-colors">
                 PRIVACY
               </a>
-              {/* TODO: Link to app store*/}
-              <a href="/" className="hover:text-[#a6d6fd]">
+              <a href="/" className="hover:text-[#a6d6fd] transition-colors">
                 DOWNLOAD
               </a>
-              <a href="/contact" className="hover:text-[#a6d6fd]">
+              <a href="/contact" className="hover:text-[#a6d6fd] transition-colors">
                 CONTACT
               </a>
             </div>
@@ -62,28 +61,32 @@ export default function RootLayout({
             />
 
             {/* Bottom row */}
-            <div className="w-full grid grid-cols-3 items-center text-black text-sm">
-
-              {/* Left */}
-              <p className="font-bold justify-self-start">
+            <div className="w-full flex flex-col items-center gap-4 text-black text-xs sm:text-sm md:grid md:grid-cols-3 md:items-center">
+              <p className="font-bold md:justify-self-start">
                 © 2026 Carslie
               </p>
 
-              {/* Center (actually centered now) */}
               <p className="text-center tracking-[0.08em]">
                 DEVELOPED BY LINDSEY KARTVEDT
               </p>
 
-              {/* Right */}
-              <div className="flex justify-self-end items-center gap-4">
-                {/* icons */}
-                <div className="flex items-center gap-4">
-                  <span className="text-black">TikTok</span>
-                  <span className="text-black">Instagram</span>
-                  <span className="text-black">Twitter</span>
-                </div>
+              <div className="flex items-center gap-4 md:justify-self-end">
+                <img
+                  src="https://lo33ytah7ewabfnk.public.blob.vercel-storage.com/tiktok.png"
+                  alt="TikTok"
+                  className="h-6 w-auto hover:opacity-70 cursor-pointer md:h-8"
+                />
+                <img
+                  src="https://lo33ytah7ewabfnk.public.blob.vercel-storage.com/instagram.png"
+                  alt="Instagram"
+                  className="h-6 w-auto hover:opacity-70 cursor-pointer md:h-8"
+                />
+                <img
+                  src="https://lo33ytah7ewabfnk.public.blob.vercel-storage.com/twitter.png"
+                  alt="Twitter"
+                  className="h-6 w-auto hover:opacity-70 cursor-pointer md:h-8"
+                />
               </div>
-
             </div>
           </div>
         </footer>
