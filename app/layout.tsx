@@ -38,7 +38,7 @@ export default function RootLayout({
               <a href="/privacy" className="hover:text-[#a6d6fd] transition-colors">
                 PRIVACY
               </a>
-              <a href="/" className="hover:text-[#a6d6fd] transition-colors">
+              <a href="https://apps.apple.com/us/app/carslie/id6760286399" className="hover:text-[#a6d6fd] transition-colors">
                 DOWNLOAD
               </a>
               <a href="/contact" className="hover:text-[#a6d6fd] transition-colors">

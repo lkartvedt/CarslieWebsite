@@ -37,7 +37,7 @@ export default function PrivacyPage() {
 
         <div className="mt-16 flex justify-center">
           <a
-            href="/"
+            href="https://apps.apple.com/us/app/carslie/id6760286399"
             className="inline-flex items-center justify-center rounded-full bg-[#0b0c79] px-8 py-4 text-white text-sm font-semibold tracking-[0.08em] hover:opacity-90 transition"
           >
             DOWNLOAD CARSLIE
